@@ -7,7 +7,7 @@
     
     /*Global*/
     .container{
-        width:80%;
+        width:90%;
         margin:auto;
         overflow-hidden;
     }
@@ -127,12 +127,12 @@
     #boxes .box{
         float:left ;
         text-align:center;
-        width: 30%;
-        padding:10px;
+        width: 27%;
+        padding:3%;
     }
     
     #boxes .box img{
-        width:90px;
+        width:90%;
     }
     
     
@@ -149,7 +149,7 @@
     }
     footer{
         padding:20px;
-        margin-top:300px;
+        margin-top:50%;
         color:#000000;
         background-color:#d8c054;
         text-align:center;
