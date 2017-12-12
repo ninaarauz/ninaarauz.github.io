@@ -4,13 +4,20 @@
         margin:0;
         background-color:#f4f4f4;
     }
-
+    
+    /*Global*/
     .container{
         width:80%;
         margin:auto;
         overflow-hidden;
     }
     
+    ul{
+        margin:0;
+        padding:0;
+    }
+    
+    /*Header*/
     header{
         background: #d8c054;
         color:#ffffff;
@@ -26,14 +33,16 @@
         font-size:16px;
     }
     
-    header ul{
+    ul{
         margin:0;
         padding:0;
     }
     
+    
+    
     header li{
         float:left;
-        display:inline;
+        display: inline;
         padding:0 20px 0 20px;
         
     }
@@ -49,4 +58,14 @@
     header nav{
         float:right;
         margin-top:5px;
+    }
+    
+    header .highlight, headaer .current a{
+        color:#000000;
+        font-weight: bold;
+    }
+    
+    header a: hover{
+        color: #cccccc
+        font-weight: bold;
     }
