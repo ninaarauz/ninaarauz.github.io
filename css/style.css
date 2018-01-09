@@ -115,6 +115,13 @@
         width:90%;
     }
     
+   #boxes2 .box img{
+       padding: 2%;
+       width:auto;
+       height:60%;
+       
+   }
+    }
     
     /*SIdebar*/
     aside#sidebar{
@@ -129,7 +136,7 @@
     }
     footer{
         padding:20px;
-        margin-top:50%;
+        margin-top:5%;
         color:#000000;
         background-color:#d8c054;
         text-align:center;
