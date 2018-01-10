@@ -138,7 +138,7 @@
         padding:20px;
         margin-top:5%;
         color:#000000;
-        background-color:#d8c054;
+        background-color:#46a36a;
         text-align:center;
     }
     
@@ -156,3 +156,13 @@
         border-color: threedface;
         border-image: initial;
     }
+   
+   header .highlight, header .current a{
+       color:#000000;
+       font-weight: bold;
+   }
+   
+   header a:hover{
+       color:#46a36a;
+       font-weight: bold;
+   }
