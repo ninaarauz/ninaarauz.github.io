@@ -1,0 +1,50 @@
+<html>
+    <head>
+    <title>title here</title>
+    <script type="text/javascript" src="./js/processing.js"></script>
+    </head>
+    
+    <body>
+    <script type = "text/processing">
+    
+    PImage background;   // creates a variable for an image
+    PImage flying;
+    int count = 0;
+    int x = -200 , y, vy = 0;
+    int[] wx = new int[2];
+    int[] wy = new int[2];
+    
+    
+    
+    void setup(){
+      size(1131, 707);
+      background = loadImage("./css/img/background.png");    //load and saves image to variable
+      flying = loadImage("./css/img/flying.png");
+    }
+    
+    void draw(){
+      image(background, count,0);
+      image(background, width + count, 0);
+      count --;
+      if(count == - 1131){
+        count = 0;
+      }
+      
+        vy +=1;
+        y += vy;  
+      
+      image(flying, 110, y);
+      
+    }
+    
+    void mousePressed() {
+      vy = -17;
+      
+    }
+    
+    
+    </script>
+    <canvas id = "sketch" style = "border: 1px solid black;"></canvas>
+    </body>    
+</html>
+    
